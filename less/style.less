@@ -1,1 +1,380 @@
 // out: ../css/style.css
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu {
+    position: relative;
+    width: 1440px;
+    height: 90px;
+    background: #FFFFF5; 
+
+	.logo { 
+        width: 80px;
+        height: 28px;
+        position: absolute;
+        top: 31px;
+        left: 86px;
+	}
+
+	.menu-items {
+        font-family: Gilroy;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #3E3E3E;
+
+        &.men{
+            position: absolute;
+            left: 235px;
+            top: 36px;
+        }
+        &.women{
+            position: absolute;
+            left: 335.33px;
+            top: 36px;
+        }
+        &.kids{
+            position: absolute;
+            left: 459.67px;
+            top: 36px;
+        }
+        &.customize{
+            position: absolute;
+            left: 561px;
+            top: 36px;
+        }
+	}
+
+	.budges { 
+        width: 39px;
+        height: 39px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 1, 0.05);
+        border-radius: 100px;
+
+        &.find {
+            background: url(../img/find.png) #FFFFFF;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            position: absolute;
+            left: 1132px;
+            top: 25px;
+        }
+        &.gray-heart {
+            background: url(../img/gray\ heart.png)  #FFFFFF;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            position: absolute;
+            left: 1196.5px;
+            top: 25px;
+        }
+        &.gray-bag {
+            background: url(../img/gray\ bag.png) #FFFFFF;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            position: absolute;
+            left: 1257px;
+            top: 25px;
+        }
+	}
+
+	.more-options {
+        width: 94px;
+        height: 90px;
+        background: url(../img/more.png) 
+        #FFC700;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 20%; 
+        position: absolute;
+        left: 1346px;
+        top: 0px;
+	}
+}
+.main-sneaker { 
+    position: relative;
+    background-color: #FFFAD0;
+    background-size: cover;
+    background-position-x: right;
+    width: 1440px;
+    height: 909px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+
+    .background{
+        position: absolute;
+        width: 913px;
+        height: 909px;
+        left: 527px;
+        top: 0;
+        background: linear-gradient(108.22deg, #FBFF41 -0.67%, #EC00E2 100%);
+
+    }
+
+	.description { 
+        position: absolute;
+        width: 112px;
+        height: 22px;
+        left: 85px;
+        top: 316px;
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #00A79D;
+        font-weight: 700;
+        border-bottom: 2px solid #00A79D;
+	}
+
+	.sneaker-name {
+        position: absolute;
+        width: 575px;
+        height: 232px;
+        left: 82px;
+        top: 364px;
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 126px;
+        line-height: 125px;
+        text-transform: uppercase;
+        color: #1F170A;
+        z-index: 2; 
+	}
+
+	.price {position: absolute;
+        width: 122px;
+        height: 43px;
+        left: 85px;
+        top: 646px;
+        font-family: Gilroy;
+        font-size: 35px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FF9A00;
+        font-weight: 900;
+	}
+
+	button {
+        position: absolute;
+        width: 172px;
+        height: 62px;
+        left: 82px;
+        top: 729px;
+        background: linear-gradient(107.81deg, #0047FF -0.31%, #EC00E2 100%);
+        box-shadow: 0px 40px 60px rgba(95, 42, 243, 0.2);
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #FFFFFF; 
+        border: none;
+	}
+
+	.circle {
+        position: absolute;
+        width: 712px;
+        height: 689.63px;
+        left: 627.5px;
+        top: 120px;
+        transform: rotate(-2.98deg); 
+        border-radius: 1000px;
+
+	}
+
+	.sbnyjah { 
+        position: absolute;
+        width: 198.72px;
+        height: 750.8px;
+        left: 960px;
+        top: 88.13px;
+	}
+
+	.sneaker {
+        position: absolute;
+        width: 1120px;
+        left: 450px;
+        top: -20px;
+	}
+}
+.second-sneaker {
+    width: 1440px;
+    height: 972px;
+    position: absolute;
+    top: 999px;
+
+	.description { 
+        position: absolute;
+        width: 92px;
+        height: 25px;
+        left: 710px;
+        top: 154px;
+        font-family: Gilroy;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: blue;
+	}
+
+	.head { 
+        position: absolute;
+        width: 516px;
+        height: 190px;
+        left: 710px;
+        top: 199px;
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 95px;
+        text-transform: uppercase;
+        color: #1F170A;
+	}
+
+	.decription2 { 
+        position: absolute;
+        width: 519px;
+        height: 117px;
+        left: 710px;
+        top: 419px;
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #3E3E3E;
+	}
+
+    .colors {
+        position: absolute;
+        width: 200px;
+        height: 37px;
+        left: 710px;
+        top: 587px;
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #1F170A; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .color{
+            width: 21.91px;
+            height: 21px;
+            box-sizing: border-box;
+            font-family: Gilroy;
+            border-radius: 100px;
+        }
+	}
+
+	.sizes {
+        position: absolute;
+        width: 463px;
+        height: 37px;
+        left: 710px;
+        top: 662px;
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #1F170A; 
+        display: flex;
+        justify-content: space-between;
+
+        .size{
+            width: 84px;
+            height: 37px;
+            border: 1px solid rgba(62, 62, 62, 0.3);
+            box-sizing: border-box;
+            font-family: Gilroy;
+            font-size: 15px;
+            line-height: 18px;
+            text-transform: capitalize;
+            color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+	}
+
+	.add {
+        position: absolute;
+        width: 176px;
+        height: 62px;
+        left: 712px;
+        top: 752px;
+        background: linear-gradient(108.16deg, #FAFF00 -1.06%, #EC00E2 100%); 
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 900;
+
+		img { 
+            width: 11px;
+            height: 13px;
+		}
+	}
+
+	.wish { 
+        position: absolute;
+        width: 176px;
+        height: 62px;
+        left: 918px;
+        top: 752px;
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #3E3E3E;
+        background-color: white;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 900;
+        border: 2px solid yellow;
+        box-sizing: border-box;
+
+		img { 
+            width: 14px;
+            height: 13px;
+		}
+	}
+
+	.background {
+        width: 527px;
+        height: 972px; 
+        background: linear-gradient(138.68deg, #ce0ce7 0%, rgba(0, 110, 255, 0) 101.66%);
+        position: absolute;
+        left: 0;
+        top: 0;
+
+	}
+
+	.yellow-sneaker { 
+        position: absolute;
+        top: 100px;
+        left: -100px;
+        z-index: 2;
+        width: 909.73px;
+	}
+}
