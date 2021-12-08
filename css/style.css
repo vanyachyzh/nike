@@ -323,7 +323,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-weight: 900;
-  border: 2px solid yellow;
+  border: 2px solid #EC00E2;
   box-sizing: border-box;
 }
 .second-sneaker .wish img {
@@ -344,4 +344,241 @@ body {
   left: -100px;
   z-index: 2;
   width: 909.73px;
+}
+.rest-of-sneakers {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  top: 1971px;
+}
+.rest-of-sneakers .description {
+  position: absolute;
+  width: 115px;
+  height: 25px;
+  left: 662px;
+  top: 170px;
+  font-weight: 900;
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+.rest-of-sneakers .head {
+  position: absolute;
+  width: 340px;
+  height: 72px;
+  left: 549px;
+  top: 225px;
+  font-weight: 900;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F170A;
+}
+.rest-of-sneakers .items {
+  position: absolute;
+  overflow: hidden;
+  width: 265px;
+  height: 406px;
+  background: #FFFFFF;
+  box-shadow: 30px 20px 45px rgba(0, 0, 1, 0.03);
+}
+.rest-of-sneakers .items.item1 {
+  top: 357px;
+  left: 102px;
+}
+.rest-of-sneakers .items.item1 .sneaker {
+  position: absolute;
+  top: 10.63px;
+  left: 0px;
+  width: 240.88px;
+}
+.rest-of-sneakers .items.item2 {
+  top: 357px;
+  left: 424px;
+}
+.rest-of-sneakers .items.item2 .sneaker {
+  position: absolute;
+  top: -80px;
+  left: -60px;
+  width: 350.88px;
+}
+.rest-of-sneakers .items.item3 {
+  top: 357px;
+  left: 728px;
+}
+.rest-of-sneakers .items.item3 .sneaker {
+  position: absolute;
+  top: -35px;
+  left: -30px;
+  width: 300.88px;
+}
+.rest-of-sneakers .items.item4 {
+  top: 357px;
+  left: 1068px;
+}
+.rest-of-sneakers .items.item4 .sneaker {
+  position: absolute;
+  top: -80px;
+  left: -55px;
+  width: 320.88px;
+}
+.rest-of-sneakers .items .circle {
+  position: absolute;
+  width: 147px;
+  height: 147px;
+  left: 59px;
+  top: 41px;
+  border-radius: 100%;
+  background: #E0E1E6;
+}
+.rest-of-sneakers .items .colors {
+  width: 100px;
+  height: 12.43px;
+  position: absolute;
+  left: 82.5px;
+  top: 229.29px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rest-of-sneakers .items .colors .color {
+  width: 12.43px;
+  height: 12.43px;
+  border-radius: 100%;
+  background-color: green;
+}
+.rest-of-sneakers .items .name {
+  position: absolute;
+  width: 112px;
+  height: 30px;
+  left: 76px;
+  top: 260px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #3A2E39;
+}
+.rest-of-sneakers .items .prise {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  left: 97px;
+  top: 305px;
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FF3D00;
+}
+.rest-of-sneakers .items .add {
+  position: absolute;
+  width: 126px;
+  height: 36px;
+  left: 69.58px;
+  top: 348px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  background-color: white;
+  border: 2px solid #e91ce9;
+  font-family: Gilroy;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #e91ce9;
+}
+.rest-of-sneakers .items .add img {
+  width: 10px;
+  height: 9px;
+}
+.shop-now {
+  background-color: red;
+  position: absolute;
+  width: 1440px;
+  height: 680px;
+  top: 2902px;
+  overflow: hidden;
+}
+.shop-now .left-photo {
+  position: absolute;
+  width: 725px;
+  height: 680px;
+}
+.shop-now .left-background {
+  position: absolute;
+  width: 720px;
+  height: 680px;
+  opacity: 0.4;
+}
+.shop-now .right-photo {
+  position: absolute;
+  left: 720px;
+  width: 720px;
+  height: 680px;
+}
+.shop-now .right-background {
+  position: absolute;
+  left: 720px;
+  width: 720px;
+  height: 680px;
+  opacity: 0.4;
+}
+.shop-now .main-board {
+  position: absolute;
+  width: 626.44px;
+  height: 301px;
+  left: 406px;
+  top: 190px;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0.95;
+  backdrop-filter: blur(40px);
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1F170A;
+  padding-top: 67px;
+  box-sizing: border-box;
+}
+.shop-now .main-board .shop {
+  position: absolute;
+  width: 177.71px;
+  height: 61.09px;
+  left: 224.51px;
+  top: 173.85px;
+  background: linear-gradient(107.81deg, #0047FF -0.31%, #EC00E2 100%);
+  font-family: Gilroy;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 419px;
+  top: 3581px;
+  background: #02083C;
+  overflow: hidden;
 }
